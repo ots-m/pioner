@@ -35,6 +35,11 @@ blockquote {
   padding: 0;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
 img {
   width: 100%;
 }
