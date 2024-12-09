@@ -130,6 +130,10 @@
   grid-column: 1;
   grid-row: 3;
 }
+
+.about__img-two {
+  grid-row: 3;
+}
 /* Продукты */
 .products {
   margin: 80px 130px;
@@ -172,7 +176,7 @@
   color: var(--accent);
   font-size: 20px;
 }
-/* Карта представительст */
+/* Карта с представительствами */
 .map {
   margin: 0 130px;
 }
@@ -187,5 +191,79 @@
 
 .news__title {
   padding-bottom: 32px;
+}
+
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.news__list-item {
+  max-width: 380px;
+  min-height: 478px;
+  flex-grow: 1;
+  background: var(--light-gray);
+  position: relative;
+}
+
+.news__image {
+  width: 380px;
+  height: 250px;
+}
+
+.news__text {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 16px 16px;
+}
+
+.news__link {
+  color: var(--accent);
+  position: absolute;
+  bottom: 24px;
+  left: 16px;
+}
+
+.news__time {
+  color: var(--gray);
+  position: absolute;
+  bottom: 24px;
+  right: 16px;
+}
+
+.footer {
+  background-color: var(--dark);
+  padding: 80px 130px;
+  color: var(--light);
+}
+
+.footer__logo-img {
+  width: 180px;
+  color: var(--light);
+}
+
+.footer__menu-about {
+  
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer__list-item {
+
+}
+
+.footer__link {
+  color: var(--light);
+}
+
+.footer__link-active {
+
 }
 
