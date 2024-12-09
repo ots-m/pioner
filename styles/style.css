@@ -1,0 +1,150 @@
+/* Шапка */
+.header {
+  margin: 32px 130px 0 130px;
+}
+
+.header__contacts-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 180px;
+  height: 38px;
+}
+
+.header__contacts-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__contacts-item {
+  font-size: 12px;
+  text-align: right;
+  color: var(--dark);
+}
+
+.header__contacts-link {
+  display: flex;
+  justify-content: flex-end;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  color: var(--accent);
+  padding-top: 5px;
+}
+
+.header__email {
+  text-decoration: underline;
+}
+
+.header__line {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  height: 1px;
+  background: var(--gray);
+}
+
+.header__menu {
+  font-size: 14px;
+  text-align: left;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-item {
+}
+
+.header__menu-link {
+  color: var(--dark);
+  display: flex;
+}
+
+.header__phone {
+  text-transform: uppercase;
+}
+
+.header__phone-link {
+}
+
+.header__phone-image {
+  width: 16px;
+  height: 16px;
+}
+
+.hero {
+  margin: 80px 130px;
+}
+
+.hero__article {
+  display: grid;
+  grid-template-columns: 580px 379px;
+  padding-bottom: 32px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.hero__text {
+  padding: 26px 0 20px 24px;
+}
+
+.about {
+  margin: 0 130px;
+}
+
+.about__title {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 32px ;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(auto, 1fr));
+  grid-template-rows: 110px 66px 280px;
+  max-width: 580px;
+  min-height: 512px;
+  gap: 32px 20px;
+}
+
+.about__text {
+  line-height: 140%;
+}
+
+.about__paragraph-two {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.about__paragraph-three {
+  grid-row: 1;
+  grid-column: 2;
+
+}
+
+.about__img {
+  width: 580px;
+  height: 280px;
+}
+
+.about__img-one {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.products {
+  margin: 80px 130px;
+}
+
+.products__title {
+  font-size: 48px;
+}
+
+
