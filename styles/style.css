@@ -19,20 +19,20 @@
 }
 
 .header__contacts-item {
+  color: var(--dark);
   font-size: 12px;
   text-align: right;
-  color: var(--dark);
 }
 
 .header__contacts-link {
   display: flex;
   justify-content: flex-end;
+  padding-top: 5px;
+  color: var(--accent);
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
   text-align: right;
-  color: var(--accent);
-  padding-top: 5px;
 }
 
 .header__email {
@@ -40,9 +40,9 @@
 }
 
 .header__line {
+  height: 1px;
   margin-top: 32px;
   margin-bottom: 16px;
-  height: 1px;
   background: var(--gray);
 }
 
@@ -57,8 +57,8 @@
 }
 
 .header__menu-link {
-  color: var(--dark);
   display: flex;
+  color: var(--dark);
 }
 
 .header__phone {
@@ -101,9 +101,9 @@
   display: grid;
   grid-template-columns: repeat(2,minmax(auto, 1fr));
   grid-template-rows: 110px 66px 280px;
+  gap: 32px 20px;
   max-width: 580px;
   min-height: 512px;
-  gap: 32px 20px;
 }
 
 .about__text {
@@ -116,8 +116,8 @@
 }
 
 .about__paragraph-three {
-  grid-row: 1;
   grid-column: 2;
+  grid-row: 1;
 
 }
 
@@ -150,12 +150,12 @@
 }
 
 .products__list-item {
+  position: relative;
+  flex-grow: 1;
   min-width: 380px;
   min-height: 435px;
   padding: 32px 24px;
-  flex-grow: 1;
   background: var(--light-gray);
-  position: relative;
 }
 
 .product__image {
@@ -170,9 +170,9 @@
 }
 
 .products__link {
-  display: flex;
   position: absolute;
   bottom: 32px;
+  display: flex;
   color: var(--accent);
   font-size: 20px;
 }
@@ -200,11 +200,11 @@
 }
 
 .news__list-item {
+  position: relative;
+  flex-grow: 1;
   max-width: 380px;
   min-height: 478px;
-  flex-grow: 1;
   background: var(--light-gray);
-  position: relative;
 }
 
 .news__image {
@@ -213,29 +213,29 @@
 }
 
 .news__text {
+  padding: 16px 16px;
   font-size: 20px;
   line-height: 28px;
-  padding: 16px 16px;
 }
 
 .news__link {
-  color: var(--accent);
   position: absolute;
   bottom: 24px;
   left: 16px;
+  color: var(--accent);
 }
 
 .news__time {
-  color: var(--gray);
   position: absolute;
-  bottom: 24px;
   right: 16px;
+  bottom: 24px;
+  color: var(--gray);
 }
 /* Подвал */
 .footer {
-  background-color: var(--dark);
   padding: 56px 130px 24px 130px;
   color: var(--light);
+  background-color: var(--dark);
 }
 
 .flex__container {
@@ -261,22 +261,22 @@
 
 .first__grid-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .second__grid-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .third__grid-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -285,8 +285,8 @@
 }
 
 .copyright {
-  text-align: center;
   padding-top: 73px;
   font-size: 14px;
+  text-align: center;
 }
 
