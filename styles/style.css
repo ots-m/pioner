@@ -231,39 +231,62 @@
   bottom: 24px;
   right: 16px;
 }
-
+/* Подвал */
 .footer {
   background-color: var(--dark);
-  padding: 80px 130px;
+  padding: 56px 130px 24px 130px;
   color: var(--light);
+}
+
+.flex__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  display: block;
+  width: 180px;
+  height: 38px;
 }
 
 .footer__logo-img {
-  width: 180px;
   color: var(--light);
 }
 
-.footer__menu-about {
-  
+.footer__list {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: end;
 }
 
-.footer__list {
+.first__grid-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   flex-direction: column;
   gap: 24px;
 }
 
-.footer__list-item {
+.second__grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+}
 
+.third__grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .footer__link {
   color: var(--light);
 }
 
-.footer__link-active {
-
+.copyright {
+  text-align: center;
+  padding-top: 73px;
+  font-size: 14px;
 }
 
